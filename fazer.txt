@@ -1,0 +1,7 @@
+-Descobrir como usar SQL com C++
+-Modelar e criar o banco
+-Procurar comparações de tempo em C++
+-Implementar inicializadores
+	-get de dados do banco
+-Definir classes
+
