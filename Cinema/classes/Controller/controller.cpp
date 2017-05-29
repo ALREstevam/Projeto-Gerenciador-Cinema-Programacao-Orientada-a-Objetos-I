@@ -8,14 +8,16 @@
 class ControllerCinema
 {
      public:
-          addFilme(Filme fm){
-
-          }
+          addFilme(Filme fm);
      private:
           list<Filme> filmes;
 
 
 
 };
+
+
+
+
 
 #endif
