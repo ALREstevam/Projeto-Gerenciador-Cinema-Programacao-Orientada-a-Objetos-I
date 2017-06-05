@@ -1,12 +1,23 @@
 #include <iostream>
 #include <stdio.h>
-#include "sqlite3/sqlite3.h"
+//#include "sqlite3/sqlite3.h"
+
+#include "classes/Data/Dataa.h"
+#include "Filme/Filme.h"
+#include "Funcionario/funcionario.h"
+#include "Ingresso/ingresso.h"
+#include "Sessao/Sessao.cpp"
+#include "Sala/Sala.h"
+#include "Sessao/Sessao.h"
+#include "Controller/controller.h"
+#include "db/bancoCinema.h"
 
 using namespace std;
 
 int main()
 {
 
+   /*
    sqlite3 *db;
    char *zErrMsg = 0;
    int rc;
@@ -20,6 +31,11 @@ int main()
       cout << "Opened database successfully\n" << endl;
    }
    sqlite3_close(db);
+ */
+
+
+
 
     return 0;
+
 }

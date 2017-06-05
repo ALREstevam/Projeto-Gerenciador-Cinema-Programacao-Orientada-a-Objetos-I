@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="CPP_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/classes/Poltrona/Poltrona.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/classes/Poltrona/Coordenada.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/classes/Poltrona/Coordenada.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/classes/Poltrona/Poltrona.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/classes/Ingresso/ingresso.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/classes/Data/Dataa.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/classes/Data/Dataa.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/classes/Controller/controller.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/classes/Funcionario/funcionario.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/classes/Filme/Filme.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/classes/Filme/Filme.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sqlite3/sqlite3.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sqlite3/sqlite3.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/main.cpp" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="Header Search Paths">
+        <CLASSES>
+          <root url="file://C:/MinGW/include" />
+          <root url="file://C:/MinGW/lib/gcc/mingw32/3.4.5/include" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://C:/MinGW/include" />
+          <root url="file://C:/MinGW/lib/gcc/mingw32/3.4.5/include" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>
