@@ -1,6 +1,6 @@
 #ifndef FILME_H
 #define FILME_H
-#include "Dataa.h"
+#include "../Data/Dataa.h"
 class Filme
 {
 	public:
@@ -16,7 +16,7 @@ class Filme
 		void cadastrar();
 		//void remover()
 		//void alterar()
-		
+
 	private:
 		string nome;
 		int duracao;
