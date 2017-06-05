@@ -3,6 +3,63 @@
 #include<conio.h>
 #include <stdlib.h>
 
+//Funcionario
+using namespace std;
+      class funcionario {
+      private:
+      string nome, sobrenome;
+      string login, senha;
+      int cargo;
+      public:
+      funcionario() {
+      nome="";
+      sobrenome="";
+      login="";
+      senha="";
+      }
+
+	  string getNome(){
+      	return nome;
+      }
+
+	  void setNome(string n){
+      	nome=n;
+      }
+
+	  string getSobrenome(){
+      	return sobrenome;
+      }
+
+	  void setSobrenome(string n){
+      	sobrenome=n;
+      }
+
+	  string getLogin(){
+      	return login;
+	  }
+
+	  void setLogin(string n) {
+	  	login=n;
+	  }
+
+	  string getSenha(){
+      	return senha;
+      }
+
+	  void setSenha(string n){
+      	senha=n;
+      }
+
+      int getCargo() {
+      	return cargo;
+	  }
+
+	  void setCargo(int x) {
+	  	cargo=x;
+	  }
+    };
+
+
 using namespace std;
 
 //Ingresso
@@ -137,13 +194,44 @@ using namespace std;
         }
 
 	}
+	funcionario e1;
+      string gets();
+      void print();
 
-	int main() {
+      int main() {
 
-	    char op;
-	    int i;
-	    int ing;
+      	int cargo;
+      	char op;
+      	int i;
+      	int ing;
 
+      cout <<"Digite o nome: " << endl;
+      e1.setNome(gets());
+      cout << endl;
+
+	  cout <<"Digite o sobrenome: " << endl;
+      e1.setSobrenome(gets());
+      cout << endl;
+
+	  cout <<"Digite o login do usuario: " << endl;
+      e1.setLogin(gets());
+      cout << endl;
+
+	  cout << "Digite a senha do usuario: " << endl;
+      e1.setSenha(gets());
+      cout << endl;
+
+      cout << "1.Funcionario\n2.Gerente\nDigite o cargo do usuario: " << endl;
+      cin >> cargo;
+	  e1.setCargo(cargo);
+	  cout << endl;
+      	if(cargo == 1) {
+      		cout << "Funcionario";
+		  }
+		  else
+		  	cout << "Gerente";
+
+   	  print();
    	  Ingresso umIngresso;
 
 		umIngresso.inicializa(1);
@@ -152,6 +240,7 @@ using namespace std;
 		umIngresso.formapgto(1);
 		getch();
 		system("cls");
+		cout << "Vendedor: " << e1.getNome() << endl;
 		umIngresso.poltrona();
 		umIngresso.resumo(0,0,0);
 		cout << endl;
@@ -160,6 +249,7 @@ using namespace std;
 		if (op == 'y') {
             cout << endl;
             cout << "Quantos ingressos ainda deseja comprar? " << endl;
+            getch();
             cin >> ing;
             system ("cls");
             for(i = 0; i < ing; i++) {
@@ -169,9 +259,9 @@ using namespace std;
             umIngresso.formapgto(1);
             getch();
         cout << endl;
+		cout << "Vendedor: " << e1.getNome() << endl;
 		umIngresso.poltrona();
 		umIngresso.resumo(0,0,0);
-		cout << endl;
 		cout << endl;
 
 		getch();
@@ -195,3 +285,18 @@ using namespace std;
       return n;
       }
 
+      void print() {
+      system("cls");
+      cout <<"Nome do usuario: "<< e1.getNome();
+      cout <<"\nSobrenome do usuario: "<< e1.getSobrenome();
+      cout <<"\nLogin do usuario: "<< e1.getLogin();
+      cout <<"\nSenha do usuario: "<< e1.getSenha();
+      if(e1.getCargo() == 1) cout << "\nCargo do usuario: Funcionario"; else cout << "\nCargo do usuario: Gerente";
+      cout << endl;
+      cout << endl;
+      cout << "Pressione qualquer tecla para continuar...";
+      getch();
+      system("cls");
+
+
+      }

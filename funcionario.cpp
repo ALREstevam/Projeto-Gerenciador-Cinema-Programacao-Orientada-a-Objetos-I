@@ -1,6 +1,9 @@
 #include<iostream>
 #include<string>
+#include<conio.h>
+#include <stdlib.h>
 
+//Funcionario
 using namespace std;
       class funcionario {
       private:
@@ -56,14 +59,16 @@ using namespace std;
 	  }
     };
 
-
-      funcionario e1;
+	funcionario e1;
       string gets();
       void print();
 
       int main() {
 
       	int cargo;
+      	char op;
+      	int i;
+      	int ing;
 
       cout <<"Digite o nome: " << endl;
       e1.setNome(gets());
@@ -92,7 +97,8 @@ using namespace std;
 		  	cout << "Gerente";
 
    	  print();
-   	}
+      }
+
       string gets(){
       string n;
       cin>>n;
@@ -106,8 +112,12 @@ using namespace std;
       cout <<"\nLogin do usuario: "<< e1.getLogin();
       cout <<"\nSenha do usuario: "<< e1.getSenha();
       if(e1.getCargo() == 1) cout << "\nCargo do usuario: Funcionario"; else cout << "\nCargo do usuario: Gerente";
+      cout << endl;
+      cout << endl;
+      cout << "Pressione qualquer tecla para continuar...";
+      getch();
+      system("cls");
 
 
       }
-
 
