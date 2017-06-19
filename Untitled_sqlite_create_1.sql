@@ -1,23 +1,21 @@
 CREATE TABLE Sala (
 	ID_sala integer PRIMARY KEY AUTOINCREMENT,
 	tipo varchar,
-	numPoltronas integer,
-	nome string
+	numPoltronas integer
 );
 
 CREATE TABLE Sessao (
 	ID_sessao integer PRIMARY KEY AUTOINCREMENT,
 	precoBase float,
 	ID_sala integer,
-	ID_filme integer
+	ID_filme integer,
+	dtTime string
 );
 
 CREATE TABLE Filme (
 	ID_filme integer PRIMARY KEY AUTOINCREMENT,
 	nome varchar,
-	duracao float,
-	iniExib date,
-	fimExib date
+	duracao float
 );
 
 CREATE TABLE Ingresso (
@@ -55,4 +53,3 @@ CREATE TABLE Sessao_Poltronas (
 	ID_sessao integer,
 	ID_poltrona integer
 );
-
