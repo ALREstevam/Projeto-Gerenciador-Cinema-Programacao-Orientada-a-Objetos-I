@@ -1,16 +1,6 @@
-﻿  Coordenada.cpp
-  DateTimeControl.cpp
-  Filme.cpp
-  Funcionario.cpp
-  Ingresso.cpp
-Ingresso.cpp(128): warning C4129: 'P': unrecognized character escape sequence
-  MyForm.cpp
+﻿  MyForm.cpp
+c:\users\andre\desktop\projetopoo2017\poo\poo\MyForm.h(1148): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\andre\desktop\projetopoo2017\poo\poo\MyForm.h(1151): error C2374: 'rez': redefinition; multiple initialization
+  c:\users\andre\desktop\projetopoo2017\poo\poo\MyForm.h(1148): note: see declaration of 'rez'
+c:\users\andre\desktop\projetopoo2017\poo\poo\MyForm.h(1151): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
 MyForm.cpp(6): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
-  Poltrona.cpp
-  Sala.cpp
-  Sessao.cpp
-Sessao.cpp(34): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-  Generating Code...
-  Coordenada.obj : /DEBUG:FASTLINK is not supported when managed code is present; restarting link with /DEBUG:FULL
-  poo.vcxproj -> C:\Users\andre\Desktop\ProjetoPOO2017\poo\Debug\poo.exe
-  poo.vcxproj -> C:\Users\andre\Desktop\ProjetoPOO2017\poo\Debug\poo.pdb (Partial PDB)
