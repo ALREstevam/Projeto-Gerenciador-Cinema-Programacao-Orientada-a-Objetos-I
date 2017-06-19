@@ -132,6 +132,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Controller.cpp" />
     <ClCompile Include="Coordenada.cpp" />
     <ClCompile Include="DateTimeControl.cpp" />
     <ClCompile Include="Filme.cpp" />
@@ -143,6 +144,7 @@
     <ClCompile Include="Sessao.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Controller.h" />
     <ClInclude Include="Coordenada.h" />
     <ClInclude Include="DateTimeControl.h" />
     <ClInclude Include="Filme.h" />
