@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Layout>
+	<Files>
+		<File Name="classes\Sala\Sala.cpp" Top="No" Tabpos="1" TopLine="1">
+			<Cursor Line="126" Column="3"/>
+		</File>
+		<File Name="classes\Sala\Sala.h" Top="No" Tabpos="2" TopLine="9">
+			<Cursor Line="31" Column="1"/>
+			<Selection Line="1" Column="1"/>
+		</File>
+		<File Name="classes\Sessao\Sessao.cpp" Top="Yes" Tabpos="3" TopLine="30">
+			<Cursor Line="52" Column="1"/>
+			<Selection Line="1" Column="1"/>
+		</File>
+		<File Name="classes\Sessao\Sessao.h" Top="No" Tabpos="4" TopLine="10">
+			<Cursor Line="32" Column="1"/>
+			<Selection Line="1" Column="1"/>
+		</File>
+	</Files>
+	<Folders>
+		<Folder Name="classes" Expanded="Yes"/>
+		<Folder Name="classes\Controller" Expanded="Yes"/>
+		<Folder Name="classes\Data" Expanded="Yes"/>
+		<Folder Name="classes\db" Expanded="Yes"/>
+		<Folder Name="classes\Filme" Expanded="Yes"/>
+		<Folder Name="classes\Funcionario" Expanded="Yes"/>
+		<Folder Name="classes\Ingresso" Expanded="Yes"/>
+		<Folder Name="classes\Poltrona" Expanded="Yes"/>
+		<Folder Name="classes\Sala" Expanded="Yes"/>
+		<Folder Name="classes\Sessao" Expanded="Yes"/>
+	</Folders>
+</Layout>

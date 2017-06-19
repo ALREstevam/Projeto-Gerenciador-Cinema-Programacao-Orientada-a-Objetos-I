@@ -1,0 +1,7 @@
+﻿  Sala.cpp
+  Sessao.cpp
+Sessao.cpp(34): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  Generating Code...
+  Coordenada.obj : /DEBUG:FASTLINK is not supported when managed code is present; restarting link with /DEBUG:FULL
+  poo.vcxproj -> C:\Users\andre\Desktop\VS_POO\poo\Debug\poo.exe
+  poo.vcxproj -> C:\Users\andre\Desktop\VS_POO\poo\Debug\poo.pdb (Partial PDB)
