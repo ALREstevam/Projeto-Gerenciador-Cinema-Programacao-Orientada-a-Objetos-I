@@ -1129,11 +1129,10 @@ private: System::Void MyForm_Load(System::Object^  sender, System::EventArgs^  e
 private: System::Void button3_Click(System::Object^  sender, System::EventArgs^  e) {
 }
 private: System::Void maskedTextBoxPago_KeyDown(System::Object^  sender, System::Windows::Forms::KeyEventArgs^  e) {
-
+	paymentCalculator(20.00);
 }
 
-private: void paymentCalculator() {
-	float price = 20; //getPrice(filmeF);
+private: void paymentCalculator(float price) {
 	labelPagar->Text = price.ToString();
 
 	
@@ -1143,12 +1142,14 @@ private: void paymentCalculator() {
 		price /= 2;
 	}
 
-	if (maskedTextBox2->Text->ToString() != "") {
-		String^ i1 = maskedTextBox2->Text;
+	/*if (maskedTextBoxPago->Text->ToString() != "") {
+		String^ i1 = maskedTextBoxPago->Text;
 		float rez = (Convert::ToDouble(i1));
+		float trc = price - rez;
+		labelTroco->Text = trc.ToString();
+		
 
-
-	}
+	}*/
 
 
 }

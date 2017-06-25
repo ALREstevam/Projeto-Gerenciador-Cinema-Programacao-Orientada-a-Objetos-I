@@ -125,7 +125,7 @@ using namespace std;
         else {
             cout << "\tTipo do ingresso: Meia-entrada" << endl;
             if (x == 1)
-            cout << "\Preco: t5 Reais" << endl;
+            cout << "\tPreco: t5 Reais" << endl;
         else
             cout << "\tPreco: 7,50 Reais" << endl;
         }
