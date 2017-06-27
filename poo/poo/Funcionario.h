@@ -100,7 +100,7 @@ string gets() {
 }
 
 void print() {
-	system("cls");
+	//system("cls");
 	cout << "Nome do usuario: " << e1.getNome();
 	cout << "\nSobrenome do usuario: " << e1.getSobrenome();
 	cout << "\nLogin do usuario: " << e1.getLogin();

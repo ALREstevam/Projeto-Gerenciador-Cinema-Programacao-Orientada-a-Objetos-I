@@ -51,10 +51,3 @@ int Dataa::getMinuto() {
 //int Data::comparar_datas(int dia, int mes, int ano, int hora, int minuto){
 
 //}
-
-
-
-
-
-
-

@@ -1,5 +1,14 @@
 #pragma once
 #include <string>
+#include "Controller.h"
+#include "DateTimeControl.h"
+#include "Coordenada.h"
+#include "Filme.h"
+#include "Funcionario.h"
+#include "Ingresso.h"
+#include "Poltrona.h"
+#include "Sala.h"
+#include "Sessao.h"
 
 namespace poo {
 
@@ -23,6 +32,17 @@ namespace poo {
 			//
 			//TODO: Add the constructor code here
 			//
+
+			Controller ctrl;
+			Funcionario adm;
+			adm.setLogin("admin");
+			adm.setSenha("admin");
+
+			ctrl.addEmployee(adm, 0);
+
+
+			
+
 		}
 
 	protected:
@@ -501,7 +521,7 @@ private: bool access;
 			// 
 			// button2
 			// 
-			this->button2->Location = System::Drawing::Point(424, 287);
+			this->button2->Location = System::Drawing::Point(435, 287);
 			this->button2->Name = L"button2";
 			this->button2->Size = System::Drawing::Size(75, 59);
 			this->button2->TabIndex = 15;
@@ -625,7 +645,7 @@ private: bool access;
 			// 
 			// button3
 			// 
-			this->button3->Location = System::Drawing::Point(436, 285);
+			this->button3->Location = System::Drawing::Point(436, 283);
 			this->button3->Name = L"button3";
 			this->button3->Size = System::Drawing::Size(75, 59);
 			this->button3->TabIndex = 28;

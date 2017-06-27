@@ -17,8 +17,6 @@ public:
 	void setFim_exibicao(Dataa date);
 	int getFim_exibicao();
 	void cadastrar();
-	//void remover()
-	//void alterar()
 
 private:
 	string nome;

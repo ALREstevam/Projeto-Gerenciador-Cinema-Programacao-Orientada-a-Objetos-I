@@ -76,7 +76,7 @@ void Ingresso::formapgto(float p) {
 
 }
 
-int Ingresso::tipos(int t) {
+void Ingresso::tipos(int t) {
 
 
 	cout << "\t1. Inteira" << endl;
@@ -127,24 +127,5 @@ void Ingresso::resumo(float p, float x, float t) {
 		else
 			cout << "\tPreco: 7,50 Reais" << endl;
 	}
-
 }
 
-int main(int argc, char** argv) {
-
-	Ingresso umIngresso;
-	Ingresso outroIngresso;
-
-	umIngresso.poltrona();
-	umIngresso.inicializa(1);
-	umIngresso.tipos(1);
-	umIngresso.valores(0);
-	umIngresso.formapgto(1);
-	system("cls");
-	umIngresso.funcionarios(0);
-	umIngresso.resumo(0, 0, 0);
-	umIngresso.poltrona();
-
-
-	return 0;
-}

@@ -6,9 +6,9 @@ class Sala
 
 public:
 	Sala();
-	/*
+	
 	virtual ~Sala();
-	int getId();
+	/*int getId();
 	char* getTipo();
 	int getNumPoltronas();
 	void setId(int i);
@@ -16,16 +16,16 @@ public:
 	void setNumPoltronas(int np);
 	int cadastrar();
 	int alterar();
-	int remover();
+	int remover();*/
 protected:
 private:
 	int id;
 	char *tipo;
 	int numPoltronas;
-	void setQueryInsert(char query[]);
+	/*void setQueryInsert(char query[]);
 	void setQueryUpdate(char query[]);
-	void setQueryDelete(char query[]);
-	*/
+	void setQueryDelete(char query[]);*/
+	
 };
 
 #endif // SALA_H
