@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Layout>
+	<Files>
+		<File Name="ControllerCinema.h" Top="No" Tabpos="1" TopLine="1">
+			<Cursor Line="1" Column="1"/>
+		</File>
+		<File Name="Sala\Sala.h" Top="No" Tabpos="2" TopLine="1">
+			<Cursor Line="1" Column="1"/>
+		</File>
+		<File Name="main.cpp" Top="No" Tabpos="3" TopLine="82">
+			<Cursor Line="99" Column="1"/>
+			<Selection Line="103" Column="27"/>
+		</File>
+		<File Name="Sala\Sala.cpp" Top="No" Tabpos="4" TopLine="1">
+			<Cursor Line="1" Column="1"/>
+		</File>
+		<File Name="Sala\SalaDAO.cpp" Top="No" Tabpos="5" TopLine="1">
+			<Cursor Line="1" Column="1"/>
+		</File>
+		<File Name="Sala\SalaDAO.h" Top="No" Tabpos="6" TopLine="1">
+			<Cursor Line="14" Column="3"/>
+		</File>
+		<File Name="Sessao\SessaoDAO.cpp" Top="No" Tabpos="7" TopLine="1">
+			<Cursor Line="8" Column="18"/>
+		</File>
+		<File Name="Coordenada\CoordenadaPoltronaDAO.h" Top="No" Tabpos="8" TopLine="1">
+			<Cursor Line="25" Column="1"/>
+		</File>
+		<File Name="Coordenada\CoordenadaPoltrona.h" Top="No" Tabpos="9" TopLine="1">
+			<Cursor Line="14" Column="14"/>
+			<Selection Line="14" Column="37"/>
+		</File>
+		<File Name="Coordenada\CoordenadaPoltronaDAO.cpp" Top="No" Tabpos="10" TopLine="1">
+			<Cursor Line="7" Column="19"/>
+		</File>
+		<File Name="Coordenada\CoordenadaPoltrona.cpp" Top="No" Tabpos="11" TopLine="1">
+			<Cursor Line="1" Column="1"/>
+		</File>
+		<File Name="Filme\Filme.cpp" Top="No" Tabpos="12" TopLine="6">
+			<Cursor Line="1" Column="1"/>
+		</File>
+		<File Name="Filme\FilmeDAO.cpp" Top="Yes" Tabpos="13" TopLine="49">
+			<Cursor Line="1" Column="1"/>
+		</File>
+		<File Name="Filme\FilmeDAO.h" Top="No" Tabpos="14" TopLine="1">
+			<Cursor Line="14" Column="3"/>
+		</File>
+		<File Name="Funcionario\FuncionarioDAO.cpp" Top="No" Tabpos="15" TopLine="7">
+			<Cursor Line="1" Column="1"/>
+		</File>
+		<File Name="Funcionario\FuncionarioDAO.h" Top="No" Tabpos="16" TopLine="1">
+			<Cursor Line="15" Column="3"/>
+		</File>
+		<File Name="Ingresso\Ingresso.cpp" Top="No" Tabpos="17" TopLine="1">
+			<Cursor Line="13" Column="11"/>
+		</File>
+		<File Name="Ingresso\IngressoDAO.h" Top="No" Tabpos="18" TopLine="1">
+			<Cursor Line="12" Column="3"/>
+		</File>
+		<File Name="Poltrona\PoltronaDAO.h" Top="No" Tabpos="19" TopLine="1">
+			<Cursor Line="15" Column="3"/>
+		</File>
+		<File Name="Poltrona\Poltrona.h" Top="No" Tabpos="20" TopLine="1">
+			<Cursor Line="1" Column="1"/>
+		</File>
+		<File Name="SessaoPoltrona\SessaoPoltronaDAO.h" Top="No" Tabpos="21" TopLine="1">
+			<Cursor Line="16" Column="3"/>
+		</File>
+		<File Name="SessaoPoltrona\Sessao_Poltronas.h" Top="No" Tabpos="22" TopLine="1">
+			<Cursor Line="1" Column="1"/>
+		</File>
+		<File Name="Poltrona\Poltrona.cpp" Top="No" Tabpos="23" TopLine="1">
+			<Cursor Line="1" Column="1"/>
+		</File>
+		<File Name="Data\DatetimeControl.cpp" Top="No" Tabpos="24" TopLine="27">
+			<Cursor Line="55" Column="3"/>
+		</File>
+		<File Name="bancoCinema.cpp" Top="No" Tabpos="25" TopLine="1">
+			<Cursor Line="1" Column="1"/>
+		</File>
+		<File Name="Filme\Filme.h" Top="No" Tabpos="26" TopLine="1">
+			<Cursor Line="1" Column="1"/>
+		</File>
+		<File Name="Funcionario\Funcionario.cpp" Top="No" Tabpos="27" TopLine="1">
+			<Cursor Line="1" Column="1"/>
+		</File>
+	</Files>
+	<Folders>
+		<Folder Name="Ingresso" Expanded="Yes"/>
+		<Folder Name="Funcionario" Expanded="Yes"/>
+		<Folder Name="Filme" Expanded="Yes"/>
+	</Folders>
+</Layout>

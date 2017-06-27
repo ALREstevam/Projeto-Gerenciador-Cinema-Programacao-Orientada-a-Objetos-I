@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="CPP_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Classes/Ingresso/IngressoDAO.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Classes/Ingresso/Ingresso.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Classes/Ingresso/IngressoDAO.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Classes/Ingresso/Ingresso.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Classes/bancoCinema.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Classes/Poltrona/Poltrona.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Classes/Poltrona/PoltronaDAO.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Classes/Poltrona/PoltronaDAO.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Classes/Poltrona/Poltrona.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Classes/Data/DatetimeControl.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Classes/Data/DatetimeControl.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Classes/main.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Classes/bancoCinema.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Classes/Sessao/SessaoDAO.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Classes/Sessao/Sessao.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Classes/Sessao/Sessao.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Classes/Sessao/SessaoDAO.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Classes/ControllerCinema.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Classes/Sala/Sala.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Classes/Sala/SalaDAO.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Classes/Sala/SalaDAO.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Classes/Sala/Sala.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Classes/SessaoPoltrona/SessaoPoltronaDAO.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Classes/SessaoPoltrona/SessaoPoltronaDAO.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Classes/SessaoPoltrona/Sessao_Poltronas.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Classes/SessaoPoltrona/Sessao_Poltronas.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Classes/Filme/Filme.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Classes/Filme/FilmeDAO.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Classes/Filme/Filme.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Classes/Filme/FilmeDAO.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Classes/Funcionario/FuncionarioDAO.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Classes/Funcionario/Funcionario.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Classes/Funcionario/Funcionario.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Classes/Funcionario/FuncionarioDAO.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Classes/Coordenada/CoordenadaPoltrona.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Classes/Coordenada/CoordenadaPoltronaDAO.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Classes/Coordenada/CoordenadaPoltronaDAO.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Classes/Coordenada/CoordenadaPoltrona.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="Header Search Paths">
+        <CLASSES>
+          <root url="file://C:/MinGW/include" />
+          <root url="file://C:/MinGW/lib/gcc/mingw32/3.4.5/include" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://C:/MinGW/include" />
+          <root url="file://C:/MinGW/lib/gcc/mingw32/3.4.5/include" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>

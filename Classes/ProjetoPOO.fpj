@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+	<VersionInfo>
+		<VersionNumbers Major="1" Minor="0" Release="0" Build="0"/>
+		<LanguageID Value="1046"/>
+		<CharsetID Value="1252"/>
+		<CompanyName Value=""/>
+		<FileVersion Value="1.0.0.0"/>
+		<FileDescription Value="Projeto vazio"/>
+		<InternalName Value=""/>
+		<LegalCopyright Value=""/>
+		<LegalTrademarks Value=""/>
+		<OriginalFilename Value=""/>
+		<ProductName Value=""/>
+		<ProductVersion Value="1.0.0.0"/>
+		<AutoIncrementBuild Value="No"/>
+	</VersionInfo>
+	<Libs Value="-lsqlite3"/>
+	<Flags Value=""/>
+	<Target Value="ProjetoPOO.exe"/>
+	<CommandLine Value=""/>
+	<CompilerOptions Value="-Wall -s"/>
+	<DeleteObjectsBefore Value="Yes"/>
+	<DeleteObjectsAfter Value="Yes"/>
+	<DeleteMakefileAfter Value="Yes"/>
+	<DeleteResourcesAfter Value="Yes"/>
+	<EnableTheme Value="No"/>
+	<RequiresAdmin Value="No"/>
+	<CompilerType Value="CPP"/>
+	<AppType Value="CONSOLE"/>
+	<Files>
+		<Folder Name="SessaoPoltrona">
+			<File Name="SessaoPoltronaDAO.cpp"/>
+			<File Name="Sessao_Poltronas.cpp"/>
+			<File Name="SessaoPoltronaDAO.h"/>
+			<File Name="Sessao_Poltronas.h"/>
+		</Folder>
+		<Folder Name="Coordenada">
+			<File Name="CoordenadaPoltrona.cpp"/>
+			<File Name="CoordenadaPoltronaDAO.cpp"/>
+			<File Name="CoordenadaPoltrona.h"/>
+			<File Name="CoordenadaPoltronaDAO.h"/>
+		</Folder>
+		<Folder Name="Ingresso">
+			<File Name="Ingresso.cpp"/>
+			<File Name="IngressoDAO.cpp"/>
+			<File Name="Ingresso.h"/>
+			<File Name="IngressoDAO.h"/>
+		</Folder>
+		<Folder Name="Poltrona">
+			<File Name="Poltrona.cpp"/>
+			<File Name="PoltronaDAO.cpp"/>
+			<File Name="Poltrona.h"/>
+			<File Name="PoltronaDAO.h"/>
+		</Folder>
+		<Folder Name="Funcionario">
+			<File Name="Funcionario.cpp"/>
+			<File Name="FuncionarioDAO.cpp"/>
+			<File Name="Funcionario.h"/>
+			<File Name="FuncionarioDAO.h"/>
+		</Folder>
+		<Folder Name="Filme">
+			<File Name="Filme.cpp"/>
+			<File Name="FilmeDAO.cpp"/>
+			<File Name="Filme.h"/>
+			<File Name="FilmeDAO.h"/>
+		</Folder>
+		<Folder Name="Data">
+			<File Name="DatetimeControl.cpp"/>
+			<File Name="DatetimeControl.h"/>
+		</Folder>
+		<File Name="ControllerCinema.h"/>
+		<File Name="bancoCinema.h"/>
+		<File Name="bancoCinema.cpp"/>
+		<File Name="main.cpp"/>
+		<Folder Name="Sala">
+			<File Name="Sala.cpp"/>
+			<File Name="Sala.h"/>
+			<File Name="SalaDAO.cpp"/>
+			<File Name="SalaDAO.h"/>
+		</Folder>
+		<Folder Name="Sessao">
+			<File Name="Sessao.cpp"/>
+			<File Name="SessaoDAO.cpp"/>
+			<File Name="Sessao.h"/>
+			<File Name="SessaoDAO.h"/>
+		</Folder>
+	</Files>
+</Project>
